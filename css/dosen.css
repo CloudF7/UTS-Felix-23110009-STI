@@ -1,0 +1,43 @@
+header {
+    padding: 9rem 0 4rem;
+    text-align: center;
+    background-color: #6ca5e633;
+    margin-bottom: 4rem;
+}
+h1 {
+    font-size: 4rem;
+    cursor: default;
+}
+h1:hover {
+    color: #555;
+    text-decoration: underline;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.content div {
+    width: 50%;
+    margin: 0 auto 1rem;
+}
+.content div img{
+    width: 100%;
+}
+.content div img:hover{
+    opacity: 0.9;
+}
+
+
+@media screen and (max-width:1362px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width:892px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
